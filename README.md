@@ -72,7 +72,8 @@ environments:
       - deploy@example.com
     deployTo: /srv/app
     branch: main
-
+tasks:
+    pwd: pwd
 default:
   workspace: /tmp/app
   repositoryUrl: git@example.com:team/app.git
