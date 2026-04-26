@@ -93,7 +93,6 @@ Compared with the original JavaScript `shipit` style:
 
 - `environments.<name>` maps to environment blocks such as `production` and `sandbox`
 - `default.workspace`, `repositoryUrl`, `ignores`, `keepReleases`, `deleteOnRollback`, `dirToCopy` map to the original `default` block
-- `default.tasks` maps custom tasks such as `pwd`, `db:migrate`, `test`
 - `default.published` maps the `published` hook for each environment
 
 ## Built-in Tasks
@@ -135,7 +134,6 @@ Run them with:
 
 ```bash
 shipit production pwd
-shipit production test
 ```
 
 ## Directory Layout
