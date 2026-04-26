@@ -1,0 +1,17 @@
+environments:
+  production:
+    servers:
+      - deploy@example.com
+    deployTo: /srv/app
+    branch: main
+
+default:
+  workspace: /tmp/app
+  repositoryUrl: git@example.com:team/app.git
+  keepReleases: 5
+  deleteOnRollback: false
+  dirToCopy: build
+  published:
+    production: >
+      cd /srv/app/current
+      && supervisorctl restart app
