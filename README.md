@@ -21,8 +21,7 @@ Run from the directory that contains `shipit.yaml`:
 ```bash
 shipit production deploy
 shipit production rollback
-shipit production pwd
-shipit sandbox deploy test
+
 ```
 
 If you pass only an environment, the default task is `deploy`:
@@ -40,8 +39,7 @@ shipit <environment> <tasks...>
 ```bash
 shipit production deploy
 shipit production rollback
-shipit production pwd
-shipit sandbox deploy test
+
 shipit --tasks
 shipit --environments
 shipit --shipitfile ./shipit.yaml production deploy
