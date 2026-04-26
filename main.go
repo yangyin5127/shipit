@@ -17,7 +17,7 @@ import (
 	"gopkg.in/yaml.v3"
 )
 
-const version = "0.1.0"
+const version = "0.1.1"
 
 type stringSliceFlag []string
 

@@ -13,7 +13,7 @@ A tiny deployment tool. like javascript `shipit`.
 
 
 ```
-go install https://github.com/yangyin5127/shipit
+go install https://github.com/yangyin5127/shipit@latest
 ```
 
 Run from the directory that contains `shipit.yaml`:
